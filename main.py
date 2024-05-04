@@ -1,8 +1,8 @@
-import streamlit as st  # type: ignore
-import pandas as pd  # type: ignore
-import numpy as np  # type: ignore
-import matplotlib.pyplot as plt  # type: ignore
-from PIL import Image  # type: ignore
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from PIL import Image 
 
 linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
 linkedin_logo = Image.open("/users/saimanishprabhakar/desktop/Linkedin.png")
