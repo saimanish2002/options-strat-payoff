@@ -11,7 +11,7 @@ st.sidebar.title("Options Strategies Profitability Calculator")
 # App credits (hyperlink to Linkedin page)
 st.sidebar.markdown("<div style='background-color: black; color: green; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>Created by:</div>", unsafe_allow_html=True)
 st.sidebar.markdown(" ")
-st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: 0px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>'Saimanish Prabhakar' on Linkedin!</a></div>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: 0px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>Saimanish Prabhakar</a></div>", unsafe_allow_html=True)
 
 st.sidebar.markdown("---")
 
@@ -832,4 +832,7 @@ elif strategy == "Long Butterfly":
             st.pyplot(fig)
 
 elif strategy == "-":
-     st.write("Welcome to the App! Please start by selecting a strategy from the box in the sidebar")
+    st.write("Welcome to the App!")
+    st.write("Please start by selecting a strategy from the box in the sidebar")
+    st.markdown("---")
+    st.write("If you found this app useful, click on my name to connect with me on Linkedin!")
