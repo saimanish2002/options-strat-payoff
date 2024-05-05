@@ -37,7 +37,7 @@ Linkedin URL: https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/
 
 🔹 Note that a strategy may have multiple strikes and premiums. For illustration purposes, we have chosen  to use the 'long Call' options strategy as part of the walkthrough. 
 
-### 🎉 Voila! The app will have computed the net-payoff table, graph and break even poin(s) according to your inputs! 
+### 🎉 Voila! The app will have computed the net-payoff table, graph and break even point(s) according to your inputs! 
 
 <img width="756" alt="Screenshot 2024-05-05 at 19 38 59" src="https://github.com/saimanish2002/options-strat-payoff/assets/161119631/9f806aea-813f-4ac0-b1e2-19ea36360f38">
 
