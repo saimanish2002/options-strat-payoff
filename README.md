@@ -2,6 +2,11 @@
 
 Hey there, welcome to the app! Below you will find the walkthrough of the app's functions below along with some tips for users. 
 
+### 🌟 IF YOU FIND THE WEB APP USEFUL, PLEASE CONNECT WITH ME !
+
+Linkedin URL: https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/
+Email: simonboibiz@gmail.com
+
 ## 🌟 WALKTHROUGH 
 
 ### 🔶 Step 1: Select an options strategy from the dropdown list
@@ -56,13 +61,3 @@ Strategies such as a bull call spread (see illustration below) require multiple 
 Sometimes, you might enter a combination of values by mistake that completely mess up the net-payoff table and graph (see figures below). To solve this, simply re-select the 'strategy' as ' - ' and then comtinue by selecting the strategy again where all values will be reset. 
 
 <img width="314" alt="Screenshot 2024-05-05 at 20 12 16" src="https://github.com/saimanish2002/options-strat-payoff/assets/161119631/b79582f7-9e3f-4aad-b955-a64fa130c7e7">
-
-### 🌟 IF YOU FOUND THIS USEFUL, PLEASE CONNECT WITH ME ON LINKEDIN !
-
-Linkedin URL: https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/
-
-
-
-
-
-
