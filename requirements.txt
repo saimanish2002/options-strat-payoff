@@ -4,4 +4,8 @@ matplotlib
 streamlit
 plotly
 pillow
+<<<<<<< Updated upstream
 time
+=======
+time
+>>>>>>> Stashed changes
