@@ -2,7 +2,7 @@
 
 Hey there, welcome to the app! Below you will find the walkthrough of the app's functions below along with some tips for users. 
 
-### 🌟 IF YOU FIND THE WEB APP USEFUL, PLEASE CONNECT WITH ME !
+## 📧 IF YOU FIND THE WEB-APP USEFUL, PLEASE CONNECT WITH ME !
 
 Linkedin URL: https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/
 
@@ -45,15 +45,15 @@ Email: simonboibiz@gmail.com
 
 <img width="749" alt="Screenshot 2024-05-05 at 19 39 07" src="https://github.com/saimanish2002/options-strat-payoff/assets/161119631/0a085207-66a0-4065-8e65-a4f0c474961a">
 
-### 🌟 USER TIPS
+## 🌟 USER TIPS
 
-## 🔻 TIP 1: Make sure strike price(s) are between start and end expiration prices. 
+### 🔻 TIP 1: Make sure strike price(s) are between start and end expiration prices. 
 
 All strike prices must be in between the range of expiration prices denoted by the start expiration price, end expiration price and step size which creates the range between the two prices according to the step specified. 
 
 <img width="876" alt="Screenshot 2024-05-05 at 19 55 49" src="https://github.com/saimanish2002/options-strat-payoff/assets/161119631/d7f9985a-1d45-47e4-abbf-37f75d6d03aa">
 
-## 🔻 TIP 2: Read parameter labels carefully to input higher / lower values for the appropriate strikes / premiums
+### 🔻 TIP 2: Read parameter labels carefully to input higher / lower values for the appropriate strikes / premiums
 
 Strategies such as a bull call spread (see illustration below) require multiple inputs for various parameters. It is imperative that you enter the right values for the appropriate parameter to avoid receiving an error such as the one below. 
 
@@ -61,7 +61,7 @@ Strategies such as a bull call spread (see illustration below) require multiple 
 
 <img width="558" alt="Screenshot 2024-05-05 at 20 05 18" src="https://github.com/saimanish2002/options-strat-payoff/assets/161119631/686dbe46-df99-4b26-a4f4-0dee2ab141e2">
 
-## 🔻 TIP 3: How to reset parameter values
+### 🔻 TIP 3: How to reset parameter values
 
 Sometimes, you might enter a combination of values by mistake that completely mess up the net-payoff table and graph (see figures below). To solve this, simply re-select the 'strategy' as ' - ' and then comtinue by selecting the strategy again where all values will be reset. 
 
