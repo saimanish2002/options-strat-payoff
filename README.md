@@ -63,6 +63,6 @@ Strategies such as a bull call spread (see illustration below) require multiple 
 
 ### 🔻 TIP 3: How to reset parameter values
 
-Sometimes, you might enter a combination of values by mistake that completely mess up the net-payoff table and graph (see figures below). To solve this, simply re-select the 'strategy' as ' - ' and then comtinue by selecting the strategy again where all values will be reset. 
+Sometimes, you might enter a combination of values by mistake that completely mess up the net-payoff table and graph. To solve this, simply re-select the 'strategy' as ' - ' and then comtinue by selecting the strategy again where all values will be reset. 
 
 <img width="314" alt="Screenshot 2024-05-05 at 20 12 16" src="https://github.com/saimanish2002/options-strat-payoff/assets/161119631/b79582f7-9e3f-4aad-b955-a64fa130c7e7">
