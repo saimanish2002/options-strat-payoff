@@ -9,9 +9,9 @@ linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
 st.sidebar.title("Options Trading Strategies Payoff Calculator")
 
 # App credits (hyperlink to Linkedin page)
-st.sidebar.markdown("<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>Created by:</div>", unsafe_allow_html=True)
+st.sidebar.markdown("<div style='background-color: black; color: orange; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>Created by:</div>", unsafe_allow_html=True)
 st.sidebar.markdown(" ")
-st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: 0px;'><a href='{linkedin_url}' target='_blank' style='color: green; text-decoration: none;'>'Saimanish Prabhakar' on Linkedin!</a></div>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: 0px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>'Saimanish Prabhakar' on Linkedin!</a></div>", unsafe_allow_html=True)
 
 st.sidebar.markdown("---")
 
