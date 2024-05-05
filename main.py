@@ -20,9 +20,9 @@ linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
 
 st.sidebar.title("Options Trading Strategies Payoff Calculator")
 
-st.sidebar.markdown("<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>Linkedin:</div>", unsafe_allow_html=True)
+st.sidebar.markdown("<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>Created by:</div>", unsafe_allow_html=True)
 st.sidebar.markdown(" ")
-st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: -8px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>Saimanish Prabhakar</a></div>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: -5px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>'Saimanish Prabhakar' on Linkedin!</a></div>", unsafe_allow_html=True)
 
 #col1, col2 = st.sidebar.columns([1, 4])
 #with col1:
