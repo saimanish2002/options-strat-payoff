@@ -37,7 +37,7 @@ Email: simonboibiz@gmail.com
 - The incremental amount by which the underlying asset's price changes in the calculator's simulations.
 - For example, a step size of $5 means the calculator will show profitability at underlying asset prices of $50, $55, $60, and so on.
 
-### 💣 Note that a strategy may have multiple strikes and premiums. For illustration purposes, we have chosen to use the 'long Call' options strategy as part of the walkthrough. 
+🔹 Note that a strategy may have multiple strikes and premiums. For illustration purposes, we have chosen  to use the 'long Call' options strategy as part of the walkthrough. 
 
 ### 🎉 Voila! The app will have computed the net-payoff table, graph and break even poin(s) according to your inputs! 
 
