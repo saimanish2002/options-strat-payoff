@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-#import requests
-#from PIL import Image 
-#import time
 
 #URL for clicable hyperlink 'My Name'
 linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
