@@ -16,15 +16,31 @@ st.sidebar.markdown(" ")
 st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: 0px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>'Saimanish Prabhakar' on Linkedin!</a></div>", unsafe_allow_html=True)
 
 st.sidebar.markdown("---")
+
+if "strategy_changed" not in st.session_state:
+    st.session_state.strategy_changed = False
+
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
 
-st.balloons()
-st.subheader("Progress Bar")
-st.progress(65)
+# Logic to execute when the strategy changes
+if strategy != "-" and st.session_state.strategy_changed:  
+    st.balloons()
+    st.subheader("Progress Bar")
+    my_bar = st.progress(0)  # Create a progress bar
+    for percent_complete in range(100):
+        time.sleep(0.05)  # Adjust sleep time as needed
+        my_bar.progress(percent_complete + 1)
 
-st.subheader("Wait for execution")
-with st.spinner("Loading..."):
-    time.sleep(3)
+    st.subheader("Wait for execution")
+    with st.spinner("Loading..."):
+        time.sleep(3)
+
+    st.session_state.strategy_changed = False  # Reset the flag 
+
+# Track if the strategy has changed
+if strategy != st.session_state.get("last_strategy", "-"): 
+    st.session_state.strategy_changed = True 
+    st.session_state.last_strategy = strategy
 
 st.sidebar.markdown("---")
 
