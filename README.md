@@ -1,6 +1,6 @@
 # Options Strategies Profitability Calculator
 
-Hey there, welcome to the app! Below you will find the walkthrough of the app's functions below along with some tips for users. 
+Hey there, welcome to the app! Below you will find the walkthrough of the app's functions along with some tips for users. 
 
 ## 📧 If you find the web-app useful, please connect with me !
 
