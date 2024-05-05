@@ -2,10 +2,20 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import requests
 from PIL import Image 
 
 linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
-linkedin_logo = Image.open("/users/saimanishprabhakar/desktop/Linkedin.png")
+logo_url = "https://raw.githubusercontent.com/saimanish2002/options-strat-payoff/main/images/Linkedin.png"
+response = requests.get(logo_url, stream=True)
+
+os.makedirs("images", exist_ok=True)
+
+image_path = os.path.join("images", "Linkedin.png")
+with open(image_path, "wb") as f:
+    f.write(response.content)
+
+linkedin_logo = Image.open(image_path)
 
 st.sidebar.title("Options Trading Strategies Payoff Calculator")
 
