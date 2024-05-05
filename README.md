@@ -2,11 +2,9 @@
 
 Hey there, welcome to the app! Below you will find the walkthrough of the app's functions below along with some tips for users. 
 
-## 📧 IF YOU FIND THE WEB-APP USEFUL, PLEASE CONNECT WITH ME !
+## 📧 If you find the web-app useful, please connect with me !
 
 Linkedin URL: https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/
-
-Email: simonboibiz@gmail.com
 
 ## 🌟 WALKTHROUGH 
 
