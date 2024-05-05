@@ -39,16 +39,7 @@ if strategy == "Long Call":
         LC_start_price = st.sidebar.number_input("Start Expiration Price", value=60.0, step=1.0)
         LC_end_price = st.sidebar.number_input("End Expiration Price", value=140.0, step=1.0)
         LC_step_size = st.sidebar.number_input("Step Size", value=5.0, step=1.0)
-
-        if st.sidebar.button("Reset Values"):
-            st.balloons()  # Fun visual effect 
-            time.sleep(3)  # Pause for 3 seconds
-            LC_strike_price =st.sidebar.number_input("Strike Price", value=100.0,step=1.0)
-            LC_premium = st.sidebar.number_input("Premium", value=5.0, step=0.1)
-            LC_start_price = st.sidebar.number_input("Start Expiration Price", value=60.0, step=1.0)
-            LC_end_price = st.sidebar.number_input("End Expiration Price", value=140.0, step=1.0)
-            LC_step_size = st.sidebar.number_input("Step Size", value=5.0, step=1.0)
-
+        
         elif LC_start_price >= LC_strike_price:
             st.error("Start Expiration Price should be lower than the Strike Price.")
         elif LC_end_price <= LC_strike_price:
