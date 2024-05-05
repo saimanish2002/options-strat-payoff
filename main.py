@@ -14,7 +14,7 @@ linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
 
 #image_path = os.path.join("images", "Linkedin.png")
 #with open(image_path, "wb") as f:
-    f.write(response.content)
+    #f.write(response.content)
 
 #linkedin_logo = Image.open(image_path)
 
