@@ -7,16 +7,16 @@ import os
 from PIL import Image 
 
 linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
-logo_url = "Linkedin.png"
-response = requests.get(logo_url, stream=True)
+#logo_url = "Linkedin.png"
+#response = requests.get(logo_url, stream=True)
 
-os.makedirs("images", exist_ok=True)
+#os.makedirs("images", exist_ok=True)
 
-image_path = os.path.join("images", "Linkedin.png")
-with open(image_path, "wb") as f:
+#image_path = os.path.join("images", "Linkedin.png")
+#with open(image_path, "wb") as f:
     f.write(response.content)
 
-linkedin_logo = Image.open(image_path)
+#linkedin_logo = Image.open(image_path)
 
 st.sidebar.title("Options Trading Strategies Payoff Calculator")
 
@@ -25,7 +25,7 @@ st.sidebar.markdown(" ")
 
 col1, col2 = st.sidebar.columns([1, 4])
 with col1:
-    st.image(linkedin_logo, width=30)
+    #st.image(linkedin_logo, width=30)
 with col2:
     st.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: -30px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>Saimanish Prabhakar</a></div>", unsafe_allow_html=True)
 
