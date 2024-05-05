@@ -25,12 +25,6 @@ strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Cal
 # Logic to execute when the strategy changes
 if strategy != "-" and st.session_state.strategy_changed:  
     st.balloons()
-    st.subheader("Progress Bar")
-    my_bar = st.progress(0)  # Create a progress bar
-    for percent_complete in range(100):
-        time.sleep(0.05)  # Adjust sleep time as needed
-        my_bar.progress(percent_complete + 1)
-
     st.session_state.strategy_changed = False  # Reset the flag 
 
 # Track if the strategy has changed
