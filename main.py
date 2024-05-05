@@ -27,13 +27,9 @@ if strategy != "-" and st.session_state.strategy_changed:
     st.balloons()
     st.subheader("Progress Bar")
     my_bar = st.progress(0)  # Create a progress bar
-    for percent_complete in range(100):
+    for percent_complete in range(0):
         time.sleep(0.05)  # Adjust sleep time as needed
         my_bar.progress(percent_complete + 1)
-
-    st.subheader("Wait for execution")
-    with st.spinner("Loading..."):
-        time.sleep(3)
 
     st.session_state.strategy_changed = False  # Reset the flag 
 
