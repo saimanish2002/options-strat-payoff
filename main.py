@@ -22,7 +22,7 @@ if "strategy_changed" not in st.session_state:
 
 # Selectbox for user to choose strategy
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
-st.write("To reset strategy parameters, re-select strategy as '-'")
+st.sidebar.write("To reset strategy parameters, re-select strategy as '-'")
 
 # Logic to execute animation transition ONLY when 'strategy' changes
 if strategy != st.session_state.last_strategy:  
