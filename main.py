@@ -7,7 +7,7 @@ import os
 from PIL import Image 
 
 linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
-logo_url = "https://raw.githubusercontent.com/saimanish2002/options-strat-payoff/main/images/Linkedin.png"
+logo_url = "Linkedin.png"
 response = requests.get(logo_url, stream=True)
 
 os.makedirs("images", exist_ok=True)
