@@ -832,7 +832,7 @@ elif strategy == "Long Butterfly":
             st.pyplot(fig)
 
 elif strategy == "-":
-    st.write("Welcome to the App!")
+    st.write("Welcome to the Web-app!")
     st.write("Please start by selecting a strategy from the box in the sidebar")
-    st.markdown("---")
-    st.write("If you found this app useful, click on my name to connect with me on Linkedin!")
+    st.write("If you found this web-app useful, click on my name in the sidebar to connect with me on Linkedin!")
+    st.write("Enjoy!")
