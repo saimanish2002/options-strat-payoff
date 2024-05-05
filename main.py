@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #URL for clicable hyperlink 'My Name'
 linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
 
-st.sidebar.title("Options Trading Strategies Payoff Calculator")
+st.sidebar.title("Options Trading Strategies Profitability Calculator")
 
 # App credits (hyperlink to Linkedin page)
 st.sidebar.markdown("<div style='background-color: black; color: green; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>Created by:</div>", unsafe_allow_html=True)
