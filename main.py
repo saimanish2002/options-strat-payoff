@@ -17,9 +17,15 @@ st.sidebar.markdown(f"<div style='background-color: black; color: white; padding
 
 st.sidebar.markdown("---")
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
+
 st.balloons()
-st.spinner ("Loading...")
-time.sleep(3)
+st.subheader("Progress Bar")
+st.progress(65)
+
+st.subheader("Wait for execution")
+with st.spinner("Loading..."):
+    time.sleep(3)
+
 st.sidebar.markdown("---")
 
 if strategy == "Long Call":
