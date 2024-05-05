@@ -22,13 +22,17 @@ Email: simonboibiz@gmail.com
 🔹 Strike Price: 
 - The predetermined price at which the holder of an option can buy (call) or sell (put) the underlying asset.
 - This is the central point around which potential profit or loss is calculated.
+
 🔹 Premium:
 - The cost of the option contract itself, paid by the buyer to the seller.
 - This is an upfront expense, factored into the net profit or loss calculations.
+
 🔹 Start Expiration Price:
 - The lowest underlying asset price that the calculator will consider when generating potential profit/loss scenarios.
+
 🔹 End Expiration Price:
 - The highest underlying asset price included in the calculator's analysis.
+
 🔹 Step Size:
 - The incremental amount by which the underlying asset's price changes in the calculator's simulations.
 - For example, a step size of $5 means the calculator will show profitability at underlying asset prices of $50, $55, $60, and so on.
