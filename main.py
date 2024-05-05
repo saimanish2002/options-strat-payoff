@@ -834,6 +834,6 @@ elif strategy == "Long Butterfly":
 elif strategy == "-":
     st.write("Welcome to the Web-app!")
     st.write("Please start by selecting a strategy from the box in the sidebar")
-    st.write("Smartphone users: Click on the ' > ' arrow on the top left side to access sidebar")
+    st.write("Smartphone users: Click on the ' > ' arrow on the top left side of screen to access sidebar")
     st.write("If you found this web-app useful, click on my name in the sidebar to connect with me on Linkedin!")
     st.write("Cheers")
