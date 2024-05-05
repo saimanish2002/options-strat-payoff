@@ -30,7 +30,7 @@ if strategy != st.session_state.last_strategy:
     st.session_state.last_strategy = strategy   
 
 if st.session_state.strategy_changed:  
-    st.balloons()  # Only the balloons will display
+    st.snow()  # Only the balloons will display
     st.session_state.strategy_changed = False 
 
 st.sidebar.markdown("---")
