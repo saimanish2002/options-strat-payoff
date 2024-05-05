@@ -7,16 +7,6 @@ import os
 from PIL import Image 
 
 linkedin_url = "https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/"
-#logo_url = "Linkedin.png"
-#response = requests.get(logo_url, stream=True)
-
-#os.makedirs("images", exist_ok=True)
-
-#image_path = os.path.join("images", "Linkedin.png")
-#with open(image_path, "wb") as f:
-    #f.write(response.content)
-
-#linkedin_logo = Image.open(image_path)
 
 st.sidebar.title("Options Trading Strategies Payoff Calculator")
 
@@ -24,14 +14,9 @@ st.sidebar.markdown("<div style='background-color: black; color: white; padding:
 st.sidebar.markdown(" ")
 st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: 0px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>'Saimanish Prabhakar' on Linkedin!</a></div>", unsafe_allow_html=True)
 
-#col1, col2 = st.sidebar.columns([1, 4])
-#with col1:
-    #st.image(linkedin_logo, width=30)
-#with col2:
-    #st.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: -30px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>Saimanish Prabhakar</a></div>", unsafe_allow_html=True)
-
 st.sidebar.markdown("---")
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
+st.sidebar.markdown("---")
 
 if strategy == "Long Call":
         
