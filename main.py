@@ -22,7 +22,7 @@ if "strategy_changed" not in st.session_state:
 
 # Selectbox for user to choose strategy
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
-st.sidebar.markdown("<div style='background-color: black; color: red; padding: 5px; border-radius: 5px; font-size: 12px; display: inline-block;'>To RESET all strategy parameters, re-select strategy as  ' - ' and continue using the app.</div>", unsafe_allow_html=True)
+st.sidebar.markdown("<div style='background-color: black; color: red; padding: 5px; border-radius: 5px; font-size: 12px; display: inline-block;'>To RESET all strategy parameters, re-select strategy as   ' - ' and continue using the app.</div>", unsafe_allow_html=True)
 st.sidebar.markdown("---")
 
 # Logic to execute animation transition ONLY when 'strategy' changes
