@@ -42,6 +42,7 @@ if strategy == "Long Call":
         if st.sidebar.button("Reset Values"):
             st.balloons()  # Fun visual effect 
             time.sleep(3)  # Pause for 3 seconds
+            reset_placeholder = st.empty() 
             st.experimental_rerun()  # Re-run the script        
         elif LC_start_price >= LC_strike_price:
             st.error("Start Expiration Price should be lower than the Strike Price.")
