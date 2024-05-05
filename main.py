@@ -22,7 +22,7 @@ st.sidebar.title("Options Trading Strategies Payoff Calculator")
 
 st.sidebar.markdown("<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>Created by:</div>", unsafe_allow_html=True)
 st.sidebar.markdown(" ")
-st.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: -30px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>Saimanish Prabhakar</a></div>", unsafe_allow_html=True)
+st.sidebar.markdown(f"<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block; margin-left: -30px;'><a href='{linkedin_url}' target='_blank' style='color: orange; text-decoration: none;'>Saimanish Prabhakar</a></div>", unsafe_allow_html=True)
 
 #col1, col2 = st.sidebar.columns([1, 4])
 #with col1:
