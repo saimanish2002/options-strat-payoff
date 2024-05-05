@@ -17,18 +17,21 @@ st.sidebar.markdown(f"<div style='background-color: black; color: white; padding
 
 st.sidebar.markdown("---")
 
+# Initialize session state if needed
 if "strategy_changed" not in st.session_state:
     st.session_state.strategy_changed = False
+    st.session_state.last_strategy = "-"
 
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
 
-# Logic to execute when the strategy changes
-if strategy != "-" and st.session_state.strategy_changed:  
-    st.balloons()
-    st.session_state.strategy_changed = False
-elif strategy != st.session_state.get("last_strategy", "-"): 
-    st.session_state.strategy_changed = True 
-    st.session_state.last_strategy = strategy
+# Logic to execute ONLY when 'strategy' changes
+if strategy != st.session_state.last_strategy:  
+    st.session_state.strategy_changed = True  
+    st.session_state.last_strategy = strategy   
+
+if st.session_state.strategy_changed:  
+    st.balloons()  # Only the balloons will display
+    st.session_state.strategy_changed = False 
 
 st.sidebar.markdown("---")
 
