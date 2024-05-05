@@ -24,7 +24,7 @@ strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Cal
 
 # Logic to execute when the strategy changes
 if strategy != "-" and st.session_state.strategy_changed:  
-    st.balloons()
+    st.snow()
     st.session_state.strategy_changed = False  # Reset the flag 
 
 # Track if the strategy has changed
