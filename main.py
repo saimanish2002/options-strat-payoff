@@ -23,7 +23,7 @@ if "strategy_changed" not in st.session_state:
 # Selectbox for user to choose strategy
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
 #st.sidebar.caption("To RESET current strategy parameters, select 'strategy' as ' - ' and try again.")
-st.sidebar.markdown("<div style='background-color: black; color: white; padding: 3px; border-radius: 3px; font-size: 12px; display: inline-block;'>To RESET current strategy parameters, select 'strategy' as ' - ' and try again.</div>", unsafe_allow_html=True)
+st.sidebar.markdown("<div style='background-color: black; color: red; padding: 5px; border-radius: 5px; font-size: 12px; display: inline-block;'>To RESET current strategy parameters, select 'strategy' as ' - ' and try again.</div>", unsafe_allow_html=True)
 
 st.sidebar.markdown("---")
 
