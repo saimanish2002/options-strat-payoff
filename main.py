@@ -22,9 +22,7 @@ if "strategy_changed" not in st.session_state:
 
 # Selectbox for user to choose strategy
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
-#st.sidebar.caption("To RESET current strategy parameters, select 'strategy' as ' - ' and try again.")
 st.sidebar.markdown("<div style='background-color: black; color: red; padding: 5px; border-radius: 5px; font-size: 12px; display: inline-block;'>To RESET all strategy parameters, re-select strategy as  ' - ' and continue using the app.</div>", unsafe_allow_html=True)
-
 st.sidebar.markdown("---")
 
 # Logic to execute animation transition ONLY when 'strategy' changes
@@ -34,7 +32,7 @@ if strategy != st.session_state.last_strategy:
 
 if st.session_state.strategy_changed:  
     st.balloons()  # Ready-to-use animation in streamlit apart from - st.snow()
-    st.session_state.strategy_changed = False 
+    st.session_state.strategy_changed = False      
 
 if strategy == "Long Call":
         
@@ -832,3 +830,6 @@ elif strategy == "Long Butterfly":
             ax.annotate(f'BEP: {LB_bep_upper:.2f}', xy=(LB_bep_upper, 0), xytext=(LB_bep_upper + 5, -2), arrowprops=dict(facecolor='black', arrowstyle='->'))
 
             st.pyplot(fig)
+
+elif strategy == "-":
+     st.write("Welcome to the App! Please start by selecting a strategy from the box in the sidebar")
