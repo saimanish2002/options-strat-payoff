@@ -27,7 +27,7 @@ if strategy != "-" and st.session_state.strategy_changed:
     st.balloons()
     st.subheader("Progress Bar")
     my_bar = st.progress(0)  # Create a progress bar
-    for percent_complete in range(0):
+    for percent_complete in range(100):
         time.sleep(0.05)  # Adjust sleep time as needed
         my_bar.progress(percent_complete + 1)
 
