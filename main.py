@@ -22,7 +22,8 @@ if "strategy_changed" not in st.session_state:
 
 # Selectbox for user to choose strategy
 strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Call", "Long Put", "Short Put", "Bull Call Spread", "Bear Put Spread", "Long Straddle", "Long Strangle", "Strip", "Strap", "Long Butterfly"])
-st.sidebar.write("To RESET strategy parameters, re-select strategy as ' - ' and try again")
+st.sidebar.write("To RESET current strategy parameters, select 'strategy' as ' - ' and try again.")
+st.sidebar.markdown("---")
 
 # Logic to execute animation transition ONLY when 'strategy' changes
 if strategy != st.session_state.last_strategy:  
@@ -32,8 +33,6 @@ if strategy != st.session_state.last_strategy:
 if st.session_state.strategy_changed:  
     st.balloons()  # Ready-to-use animation in streamlit apart from - st.snow()
     st.session_state.strategy_changed = False 
-
-st.sidebar.markdown("---")
 
 if strategy == "Long Call":
         
