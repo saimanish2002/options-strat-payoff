@@ -40,7 +40,7 @@ if strategy == "Long Call":
         LC_end_price = st.sidebar.number_input("End Expiration Price", value=140.0, step=1.0)
         LC_step_size = st.sidebar.number_input("Step Size", value=5.0, step=1.0)
         
-        elif LC_start_price >= LC_strike_price:
+        if LC_start_price >= LC_strike_price:
             st.error("Start Expiration Price should be lower than the Strike Price.")
         elif LC_end_price <= LC_strike_price:
             st.error("End Expiration Price should be higher than the Strike Price.")
