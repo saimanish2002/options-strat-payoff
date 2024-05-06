@@ -1,4 +1,4 @@
-# Options Strategies Profitability Calculator
+# Options Strategies Payoff Calculator
 
 Hey there, welcome to the app! Below you will find the walkthrough of the app's functions along with some tips for users. 
 
