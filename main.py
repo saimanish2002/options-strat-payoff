@@ -36,7 +36,7 @@ if st.session_state.strategy_changed:
 
 if strategy == "Long Call":
         
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'LC' in this case stands for Long Call, other strategies have different acronyms
         # Focus on 'Call Values', 'Net-Payoff' and 'Break-Even Point (BEP)' functions for strategy's output accuracy
@@ -103,7 +103,7 @@ if strategy == "Long Call":
 
 elif strategy == "Short Call":
 
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'SC' in this case stands for Short Call, other strategies have different acronyms
         # Focus on 'Call Values', 'Net-Payoff' and 'Break-Even Point (BEP)' functions for strategy's output accuracy
@@ -170,7 +170,7 @@ elif strategy == "Short Call":
 
 elif strategy == "Long Put":
 
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'LP' in this case stands for Long Put, other strategies have different acronyms
         # Focus on 'Put Values', 'Net-Payoff' and 'Break-Even Point (BEP)' functions for strategy's output accuracy
@@ -237,7 +237,7 @@ elif strategy == "Long Put":
 
 elif strategy == "Short Put":
 
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'SP' in this case stands for Short Put, other strategies have different acronyms
         # Focus on 'Put Values', 'Net-Payoff' and 'Break-Even Point (BEP)' functions for strategy's output accuracy
@@ -304,7 +304,7 @@ elif strategy == "Short Put":
 
 elif strategy == "Bull Call Spread":
 
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'BCS' in this case stands for Bull Call Spread, other strategies have different acronyms
         # Focus on 'Net-Premium','Call 1 and Call 2 Values', 'Net-Payoff' and 'Break-Even Point (BEP)' functions for strategy's output accuracy
@@ -380,7 +380,7 @@ elif strategy == "Bull Call Spread":
 
 elif strategy == "Bear Put Spread":
      
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'BPS' in this case stands for Bear Put Spread, other strategies have different acronyms
         # Focus on 'Net-Premium','Put 1 and Put 2 Values', 'Net-Payoff' and 'Break-Even Point (BEP)' functions for strategy's output accuracy
@@ -455,7 +455,7 @@ elif strategy == "Bear Put Spread":
 
 elif strategy == "Long Straddle":
         
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'LSD' in this case stands for Long Straddle, other strategies have different acronyms
         # Focus on 'Net-Premium','Call and Put Values', 'Net-Payoff' and 'Break-Even Point(s) (BEP)' functions for strategy's output accuracy
@@ -524,7 +524,7 @@ elif strategy == "Long Straddle":
 
 elif strategy == "Long Strangle":
         
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'LSN' in this case stands for Long Strangle, other strategies have different acronyms
         # Focus on 'Net-Premium','Call and Put Values', 'Net-Payoff' and 'Break-Even Point(s) (BEP)' functions for strategy's output accuracy
@@ -598,7 +598,7 @@ elif strategy == "Long Strangle":
 
 elif strategy == "Strip":
         
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'STI' in this case stands for Strip, other strategies have different acronyms
         # Focus on 'Net-Premium','Put and Call Values', 'Net-Payoff' and 'Break-Even Point (BEP)' functions for strategy's output accuracy
@@ -674,7 +674,7 @@ elif strategy == "Strip":
 
 elif strategy == "Strap":
         
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'STA' in this case stands for Strap, other strategies have different acronyms
         # Focus on 'Net-Premium','Put and Call Values', 'Net-Payoff' and 'Break-Even Point(s) (BEP)' functions for strategy's output accuracy
@@ -743,7 +743,7 @@ elif strategy == "Strap":
 
 elif strategy == "Long Butterfly":
        
-        # Defining the floats used to calculate the strategy
+        # Defining the functions used to calculate the strategy
         # Each strategy follows the same structual format
         # 'STA' in this case stands for Strap, other strategies have different acronyms
         # Focus on 'Net-Premium','Lower, Middle and  Upper Call Values', 'Net-Payoff' and 'Break-Even Point(s) (BEP)' functions for strategy's output accuracy
