@@ -25,15 +25,6 @@ strategy = st.sidebar.selectbox("Select Strategy", ["-", "Long Call", "Short Cal
 st.sidebar.markdown("<div style='background-color: black; color: red; padding: 5px; border-radius: 5px; font-size: 12px; display: inline-block;'>To RESET all strategy parameters, re-select strategy as ' - ' and continue using the app.</div>", unsafe_allow_html=True)
 st.sidebar.markdown("---")
 
-# Logic to execute animation transition ONLY when 'strategy' changes
-if strategy != st.session_state.last_strategy:  
-    st.session_state.strategy_changed = True  
-    st.session_state.last_strategy = strategy   
-
-if st.session_state.strategy_changed:  
-    st.balloons()  # Ready-to-use animation in streamlit apart from - st.snow()
-    st.session_state.strategy_changed = False      
-
 if strategy == "Long Call":
         
         # Defining the functions used to calculate the strategy
