@@ -5,6 +5,7 @@ Hey there, welcome to the app! Below you will find the walkthrough of the app's 
 ## 📧 If you find the web-app useful, please connect with me !
 
 Linkedin URL: https://www.linkedin.com/in/saimanish-prabhakar-3074351a0/
+
 App Link: https://options-strategies-payoff-calculator.streamlit.app/
 
 ## 🌟 WALKTHROUGH 
