@@ -2,3 +2,4 @@ numpy
 pandas
 matplotlib
 streamlit
+altair<5.0.0
