@@ -1,4 +1,4 @@
-numpy<3
+numpy>=1.26,<2
 pandas<3
 matplotlib
 streamlit>=1.30,<2
